@@ -163,7 +163,7 @@
             "DELETE_ASSIGNMENT": "删除指派",
             "REMOVE_ASSIGNED": "移除指派",
             "TOO_MANY": "...太多用户，继续过滤中",
-            "CONFIRM_UNASSIGNED": "你确定要让它无任何指派吗？",
+            "CONFIRM_UNASSIGNED": "你确定要让它未指派给任何人吗？",
             "TITLE_ACTION_EDIT_ASSIGNMENT": "编辑指派",
             "SELF": "指派给我"
         },
@@ -741,7 +741,7 @@
             "ATTRIBUTES": "属性",
             "MEMBERS": "成员",
             "PERMISSIONS": "权限",
-            "INTEGRATIONS": "整合",
+            "INTEGRATIONS": "集成",
             "PLUGINS": "插件"
         },
         "SUBMENU_PROJECT_ATTRIBUTES": {
@@ -797,9 +797,9 @@
             "CONTACTS_EMPTY": "{{username}} 尚无联络人",
             "CURRENT_USER_CONTACTS_EMPTY": "您尚无任何联络人",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "你在Taiga一同工作的伙伴将自动成为你的联络人",
-            "REPORT": "回报滥用",
+            "REPORT": "报告滥用",
             "TABS": {
-                "ACTIVITY_TAB": "时间表",
+                "ACTIVITY_TAB": "时间轴",
                 "ACTIVITY_TAB_TITLE": "显示该用户的所有活动",
                 "PROJECTS_TAB": "项目",
                 "PROJECTS_TAB_TITLE": "列出该用户参与的所有项目",
@@ -905,7 +905,7 @@
             "UPLOADING_FILE": "上传倾倒档案",
             "DESCRIPTION": "这个过桯要花点时间，请保持视窗开启",
             "ASYNC_IN_PROGRESS_TITLE": "我们正在导入你的项目",
-            "ASYNC_IN_PROGRESS_MESSAGE": "这个过程要花上一点时间<br/> 当弄好时我们会发给你一封邮件",
+            "ASYNC_IN_PROGRESS_MESSAGE": "这个过程要花上一点时间<br/> 当完成以后我们会给你发一封邮件",
             "UPLOAD_IN_PROGRESS_MESSAGE": "已上传 {{totalSize}}中的{{uploadedSize}}",
             "ERROR": "系统在滙进你倒入的资料时遇上一些问题，请再试一次",
             "ERROR_TOO_MANY_REQUEST": "抱歉系统繁忙中，请稍后再试试",
@@ -967,7 +967,7 @@
             "NEWSLETTER_LABEL_TEXT": "不愿再收到电子月报",
             "CANCEL": "返回设置",
             "ACCEPT": "删除账号",
-            "BLOCK_PROJECT": "请注意，在你删除你的账户之后，所有属于你的项目都会被<strong>冻结</strong>。如果你确实希望一个项目被冻结，在你删除你的账户之前，请将所有权转移至该项目的其他成员名下。",
+            "BLOCK_PROJECT": "请注意，在你删除你的账户之后，所有属于你的项目都会被<strong>冻结</strong>。如果你不希望项目被冻结，在删除你的账户之前，请将所有权转移至该项目的其他成员名下。",
             "SUBTITLE": "很抱歉看到你离开。如果你再次考虑我们的话，我们会在这儿！ :("
         },
         "DELETE_PROJECT": {
@@ -1324,10 +1324,10 @@
         "FIELDS": {
             "MILESTONE": "冲刺",
             "USER_STORY": "用户故事",
-            "IS_IOCAINE": "负予全新任务"
+            "IS_IOCAINE": "是iocaine"
         },
-        "ACTION_IOCAINE": "挑战全新任务",
-        "TITLE_ACTION_IOCAINE": "感到任务的不勘负荷？确定其它人知道此状况在编辑任务时点选此「毒药键」。这种致命毒物如果长期吸食微量，最后可能免疫。因此你最好偶而做点出奇的挑战。"
+        "ACTION_IOCAINE": "Iocaine",
+        "TITLE_ACTION_IOCAINE": "感觉快要被这个任务压垮了？在编辑任务时点击“Iocaine”图标可以保证让其他人员知道你的感觉。少量吸食这种致命毒药，随着时间的推移，就可能会对它产生免疫；同样，偶尔接受额外的挑战，也可能会让你把事情做得更好。"
     },
     "NOTIFICATION": {
         "OK": "一切顺利",
@@ -1543,8 +1543,8 @@
     },
     "HINTS": {
         "SECTION_NAME": "提示",
-        "LINK": "如果想知道如何使用，可以到我们的支援页面了解详情。",
-        "LINK_TITLE": "造访我们的支援页面",
+        "LINK": "如果想知道如何使用，可以到我们的支持页面了解详情。",
+        "LINK_TITLE": "访问我们的支持页面",
         "HINT1_TITLE": "你知道可以导入与滙出项目吗？",
         "HINT1_TEXT": "可以从 Taiga提取所有个人资料记录，移入其它地方。",
         "HINT2_TITLE": "你知道可以创建个人化栏位吗",
